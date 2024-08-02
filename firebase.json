@@ -1,0 +1,51 @@
+{
+  "hosting": {
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/about_us",
+        "destination": "/about_us.html"
+      },
+      {
+        "source": "/collegevisa",
+        "destination": "/CollegeVisa.html"
+      },
+      {
+        "source": "/schoolingvisa",
+        "destination": "/SchoolingVisa.html"
+      },
+      {
+        "source": "/blogs",
+        "destination": "/blogs.html"
+      },
+      {
+        "source": "/contact_us",
+        "destination": "/contact_us.html"
+      },
+      {
+        "source": "/contact",
+        "destination": "/contact_us.html"
+      }
+    ],
+    "headers": [
+      {
+        "source": "**/*.@(js|css|html|jpg|jpeg|png|svg|avif)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=31536000"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -53,4 +53,4 @@ For inquiries regarding this License Agreement, please contact:
 
 **Shehara Nayanananda**
 
-**Email:** [sheharanayanananda@gmail.com]
+**Email:** sheharanayanananda@gmail.com
